@@ -1,3 +1,7 @@
+# B
+- brevity 简洁的，简短的
+
+
 # C
 - corresponding to 与...相一致
 - cues 线索、因素、提示
