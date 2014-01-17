@@ -11,6 +11,7 @@
 ![equation](http://latex.codecogs.com/svg.latex?h%28x%29%3D%5Ctheta_0%2B%5Ctheta_1x)
 
 ### Cost Function
+#### 概述
 我们的目标是：   
 选择合适的![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_0)和![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_1)，让![theata](http://latex.codecogs.com/svg.latex?h_%5Ctheta%28x%29)尽可能接近![theata](http://latex.codecogs.com/svg.latex?y)(也即是是前面所述的“right answer”)
 
@@ -26,3 +27,16 @@
 
 这样的代价函数也被称为squared error function或square error cost function。    
 选择这种形式的函数作为代价函数被证明是合理的，并且适合大多数问题，用的也很普遍。当然也有其他形式的代价函数。
+
+#### Cost Function的几何含义
+![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_0)和![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_1)一确定，就唯一确定了hypothesis，其对应一条直线。我们的目标是找出![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_0)和![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_1)，使训练集中的各个点到hypothesis的垂直距离的平方和最小。
+
+### Gradient descent algorithm
+梯度下降算法不仅仅用于线性回归，在机器学习中到处都有用到。
+
+可以证明梯度下降法可以用于求解![equation](http://latex.codecogs.com/svg.latex?%5Cmin_%7B%5Ctheta_0%2C%5Cldots%2C%5Ctheta_n%7DJ%28%5Ctheta_0%2C%5Ctheta_1%2C%5Cldots%2C%5Ctheta_n%29)这样的问题。
+
+步骤（不妨假设J有两个自变量）：
+
+- 开始时先猜测![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_0)和![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_1)的值（初始值，通常都设为0）
+- 不断改变![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_0)和![theata](http://latex.codecogs.com/svg.latex?%5Ctheta_1)，来减小J，直到达到一个最小值或极小值
