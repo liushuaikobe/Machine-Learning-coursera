@@ -1,5 +1,6 @@
 # A
 - arbitrary 任意的
+- associate 结合
 
 # B
 - brevity 简洁的，简短的
@@ -9,6 +10,7 @@
 - corresponding to 与...相一致
 - cues 线索、因素、提示
 - cohesive 内聚的，有结合力的，紧密结合的
+- commutative 交换
 - convergence 收敛	
 - convention 约定、惯例
 - contrast 对比，形成对照
