@@ -14,6 +14,7 @@
 - contrast 对比，形成对照
 - contour 等高线，轮廓
 - concretely 具体地
+- convex 凸
 - curve 曲线
 
 # D
@@ -58,9 +59,11 @@
 - slope 斜率
 - spin 旋转
 - succinctness 简洁
+- susceptible 易受影响的
 
 # T
 - terminology 术语
+- trajectory 轨道，轨迹
 
 # U
 - univariate 单一变量的

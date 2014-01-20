@@ -40,3 +40,30 @@
 
 - 开始时先猜测![theata](./img/07.png)和![theata](./img/08.png)的值（初始值，通常都设为0）
 - 不断改变![theata](./img/07.png)和![theata](./img/08.png)，来减小J，直到达到一个最小值或极小值
+
+梯度下降算法：    
+repeat until convergence {    
+	![gradient descent](./img/11.png)    
+	（simultaneously update j=0 and j=1）    
+}    
+其中：![alpha](./img/12.png) => learning rate，以多快的速率更新![theta_j](./img/13.png)，永远为正数
+
+随着![theta](./img/13.png)越来越接近极小值，其移动的步长也越来越小，从几何上来看，因为其越接近极小值，J的切线斜率越来越接近0。因此无需调整![alpha](./img/12.png)，梯度下降算法也会收敛。
+
+#### 梯度下降法与线性回归结合
+![ppt_shortcut](./img/14.png)
+
+虽然梯度下降法中选择不同的初始![theta_j](./img/13.png)最终收敛时会得到不同的极小值，但是易证，线性回归的代价函数为一个“碗形”的函数，即凸函数。这种函数有唯一极小值，该极小值也为最小值。
+
+因此，将梯度下降法应用到线性回归的代价函数中，总是能在最小值上收敛。
+
+**“Batch” Gradient Descent**
+
+在梯度下降过程中的每一步，用到了训练集中的全部数据。
+
+#### 补充
+- 在解决![equation](./img/05.png)时，有一种非迭代的算法（如梯度下降）
+	- 优点：无需设定学习速率（learning rate）![alpha](./img/12.png)
+- Learning with large number of features
+	- 最好的方案是——线性代数（linear algebra），矩阵和向量
+
