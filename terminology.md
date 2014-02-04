@@ -17,6 +17,7 @@
 - contour 等高线，轮廓
 - concretely 具体地
 - convex 凸
+- cubic 立方的
 - curve 曲线
 
 # D
@@ -40,6 +41,8 @@
 - illustration 插图，图解
 - intuition 直觉，感知
 
+# M
+- multivariant 多元的
 
 # N
 - neat 优雅的，整洁的，灵巧的
@@ -51,6 +54,10 @@
 
 # P
 - plot 绘制
+
+# Q
+- quadratic 二次的
+
 
 # R
 - recap 扼要重述
