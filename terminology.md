@@ -1,4 +1,5 @@
 # A
+- analytically 分析地，解析地
 - arbitrary 任意的
 - associate 结合
 
