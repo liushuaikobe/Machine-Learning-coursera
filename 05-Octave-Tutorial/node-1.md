@@ -6,7 +6,7 @@
 >> plot(t, y1);
 ```
 
-![plot1](./img/01.png =450x)
+<img src="./img/01.png" width="450px"/>
 
 - `hold on;` 保留住本图，下次画图在本图基础上画。
 
@@ -23,7 +23,7 @@
 >> print -dpng 'test.png'
 ```
 
-![plot2](./img/02.png =450x)
+<img src="./img/02.png" width="450px"/>
 
 - `close` 关闭plot窗口
 
@@ -43,13 +43,13 @@
 >> plot(t, y2);
 ```
 
-![plot2](./img/03.png =450x)
+<img src="./img/03.png" width="450px"/>
 
 - `axis([0.5 1 -1 1])` 设置精度。矩阵前两个元素为X轴的范围，后两个为Y的范围。
 
 下面的例子接上面的，还是选择的第二个子图，设置了第二个子图的X、Y轴的范围。
 
-![plot2](./img/04.png =450x)
+<img src="./img/04.png" width="450px"/>
 
 - `clf` 清空plot窗口
 
@@ -62,6 +62,6 @@
 >> imagesc(magic(15)), colorbar, colormap gray;
 ```
 
-![plot2](./img/05.png =450x)
-![plot2](./img/06.png =450x)
-![plot2](./img/07.png =450x)
+<img src="./img/05.png" width="450px"/>
+<img src="./img/06.png" width="450px"/>
+<img src="./img/07.png" width="450px"/>
