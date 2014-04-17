@@ -1,5 +1,8 @@
 *.py[cod]
 
+# Tmp LaTex Files
+tex-tmp/*
+
 # C extensions
 *.so
 
