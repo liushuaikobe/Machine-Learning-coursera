@@ -2,6 +2,7 @@
 - analytically 分析地，解析地
 - arbitrary 任意的
 - associate 结合
+- asymptotes 渐近线
 
 # B
 - brevity 简洁的，简短的
@@ -41,6 +42,7 @@
 # I
 - illustration 插图，图解
 - intuition 直觉，感知
+- interpretation 解释
 
 # M
 - multivariant 多元的
@@ -55,6 +57,7 @@
 
 # P
 - plot 绘制
+- parametrized 用参数表示；确定…的参数
 
 # Q
 - quadratic 二次的
@@ -70,10 +73,12 @@
 - spin 旋转
 - succinctness 简洁
 - susceptible 易受影响的
+- synonyms 同义的
 
 # T
 - terminology 术语
 - trajectory 轨道，轨迹
+- threshold 阈值，临界值
 
 # U
 - univariate 单一变量的
