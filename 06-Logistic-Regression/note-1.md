@@ -128,3 +128,20 @@ initialTheta = zeros(2, 1); % theta的初始值，注意要求theta的维度必�
 [optTheta, functionVal, exitFlag] = fminunc(@costFuction, initialTheta, options); % 会应用一些高级的算法求解costFunction的最小值，exitFlag标志算法是否收敛（收敛为1）。
 ```
 
+### Multiclass Classification
+
+Multiclass Classification的含义：例如，我们希望自动将邮件归档到不同的文件夹中——Work，Friend，Family，Hobby等等。再比如，用机器学习算法来对天气来做一些分类，可以将天气分为——Sunny，Cloudy，Rain，Snow。在这些例子中，y的取值不只是两个值，可以取很多值。
+
+使用one versus all classification算法可以解决这类分类问题。
+
+例如：
+
+![52](./img/52.png)
+
+该算法将一个multiclass classification问题转换成三个独立的二值分类问题。
+
+我们训练出三个假设函数（分类器），分别做出上图所示的三种情况的预测：
+
+![53](./img/53.png)
+
+做个总结，对multiclass classification的每个class i，我们都需要训练出一个logistic回归的分类器![54](./img/54.png)，来做出![55](./img/55.png)可能性的预测，之后，对于一个新的输入向量x，找出：![56](./img/56.png)，也即将x归为该类最合适。
